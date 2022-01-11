@@ -1,0 +1,4 @@
+Wykaz towarów nr 12/2020 
+Lp. 	Nazwa 	Cena 	Ilosc 	Wartosc
+1          Ananas   3,00    3   9,00 
+2      Mandarynka   2,00    2   4,00 
