@@ -1,5 +1,7 @@
 package rok20_21_k2;
 
+import rok19_20_k2.Zad2;
+
 public class MainK2 {
     public static void main(String[] args) {
         //zad1
@@ -23,14 +25,9 @@ public class MainK2 {
         //zad1.wyswietlAutorow();
 
         //zad3
-        //Pracownik p1 = new Pracownik("Stig", "Malutki", 32, 1);
-        //Pracownik p2 = new Pracownik("Kamil", "Cienki", 21, 2);
-        //Pracownik p3 = new Pracownik("Ernest", "Kominek", 71, 1);
-        //double x = 1700;
-        //p1.wyswietl(x);
-        //p2.wyswietl(x);
-        //p3.wyswietl(x);
-        //p3.setSposob(2);
-        //p3.wyswietl(x);
+        Zad3 zad3 = new Zad3();
+
+        //zad2
+        Zad2.zad2();
     }
 }
