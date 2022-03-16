@@ -8,8 +8,8 @@ public abstract class Scanner_basic {
     public static void funkcja(){
         Scanner scan = new Scanner(System.in);
         System.out.println("wpisz x");
-        //String nazwa = scan.next();
         String nazwa = scan.nextLine();
+        //String nazwa = scan.next(); /* skanuje tylko jedno slowo */
         //String nazwa = scan.nextInt();
         //String nazwa = scan.nextDouble();
         //etc

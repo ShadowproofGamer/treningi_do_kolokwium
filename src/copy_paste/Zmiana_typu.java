@@ -8,6 +8,11 @@ public abstract class Zmiana_typu {
         String s1 = "jakis napis";
         char[] c = new char[s1.length()];
         s1.getChars(0, s1.length(), c, 0);
+        // or simply     c = s1.toCharArray();
+
+        //String na byte[]
+        String s6 = "jakis napis";
+        byte[] b = s6.getBytes();
 
         //String na int
         String s2 = "12";
@@ -25,9 +30,16 @@ public abstract class Zmiana_typu {
         String s5 = "Kalin Marcel Michal Jakub Andrzej 32112 ,";
         String[] sarr = s5.split("\\s+");
 
+        //char[] to String
+        char[] c2 = {'a', 'b', 'c'};
+        String str = new String(c2);
+
+
 
         //System.out.println(Arrays.toString(sarr));
         //System.out.println(sarr[0]);
+
+
     }
 
 }
